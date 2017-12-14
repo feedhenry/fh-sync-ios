@@ -47,6 +47,10 @@
     return self;
 }
 
+- (void)setNetworkHandler:(NetworkHandler *) handler{
+    networkHandler = handler;
+}
+
 - (instancetype)initWithConfig:(FHSyncConfig *)config {
     self = [super init];
     if (self) {

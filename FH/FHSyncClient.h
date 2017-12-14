@@ -33,7 +33,6 @@
 + (FHSyncClient *)getInstance;
 
 /** Initializer for unit testing only.
-
  @param config The sync configuration
  */
 - (instancetype)initWithConfig:(FHSyncConfig *)config AndDataSet:(FHSyncDataset*)dataSetInjected;
@@ -43,6 +42,13 @@
  @param config The sync configuration
  */
 - (instancetype)initWithConfig:(FHSyncConfig *)config;
+
+/**
+ * Set network handler to be used with sync
+ */
+- (void)setNetworkHandler:(NetworkHandler *) handler;
+
+
 /**
  Use sync client to manage a dataset with id dataId.
 
