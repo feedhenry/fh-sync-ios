@@ -1,5 +1,4 @@
-# FeedHenry iOS SDK
-
+# FeedHenry Sync iOS 
 
 ![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)
 [![circle-ci](https://img.shields.io/circleci/project/github/feedhenry/fh-ios-sdk/master.svg)](https://circleci.com/gh/feedhenry/fh-ios-sdk)
@@ -8,17 +7,6 @@
 [![GitHub release](https://img.shields.io/github/release/feedhenry/fh-ios-sdk.svg)](https://github.com/feedhenry/fh-ios-sdk/releases)
 [![CocoaPods](https://img.shields.io/cocoapods/v/FH.svg)](https://cocoapods.org/pods/FH)
 [![Platform](https://img.shields.io/cocoapods/p/FH.svg)](https://cocoapods.org/pods/FH)
-
-The iOS Software Development Kit to connect to the [FeedHenry platform.](http://www.feedhenry.com)
-
-## Usage
-
-See [iOS SDK Guide](http://docs.feedhenry.com/v2/sdk_ios.html).
-
-### Links
-* [FeedHenry Documentation](http://docs.feedhenry.com)
-* [Reachability](https://github.com/tonymillion/Reachability)
-* [AeroGear iOS Push](https://github.com/aerogear/aerogear-ios-push)
 
 
 ## Developing
