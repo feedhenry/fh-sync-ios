@@ -38,6 +38,30 @@
 		6FE7B3691ACEDED10029C63F /* FHSyncDataset.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C60001A9B366200C22C92 /* FHSyncDataset.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6FE7B36A1ACEDEF60029C63F /* FHSyncPendingDataRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C60051A9B366200C22C92 /* FHSyncPendingDataRecord.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6FE7B36B1ACEDF1A0029C63F /* FHSyncUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9C60071A9B366200C22C92 /* FHSyncUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8A2DCA2D1FE9898700A2C6A7 /* FHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA2B1FE9898700A2C6A7 /* FHConfig.m */; };
+		8A2DCA2E1FE9898700A2C6A7 /* FHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA2C1FE9898700A2C6A7 /* FHConfig.h */; };
+		8A2DCA311FE989A600A2C6A7 /* FH.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA2F1FE989A600A2C6A7 /* FH.h */; };
+		8A2DCA321FE989A600A2C6A7 /* FH.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA301FE989A600A2C6A7 /* FH.m */; };
+		8A2DCA361FE98A2000A2C6A7 /* FHAct.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA341FE98A2000A2C6A7 /* FHAct.h */; };
+		8A2DCA371FE98A2000A2C6A7 /* FHAct.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA351FE98A2000A2C6A7 /* FHAct.m */; };
+		8A2DCA3E1FE98A3C00A2C6A7 /* FHActRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA381FE98A3C00A2C6A7 /* FHActRequest.h */; };
+		8A2DCA3F1FE98A3C00A2C6A7 /* FHCloudRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA391FE98A3C00A2C6A7 /* FHCloudRequest.m */; };
+		8A2DCA401FE98A3C00A2C6A7 /* FHActRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA3A1FE98A3C00A2C6A7 /* FHActRequest.m */; };
+		8A2DCA411FE98A3C00A2C6A7 /* FHAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA3B1FE98A3C00A2C6A7 /* FHAuthRequest.m */; };
+		8A2DCA421FE98A3C00A2C6A7 /* FHCloudRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA3C1FE98A3C00A2C6A7 /* FHCloudRequest.h */; };
+		8A2DCA431FE98A3C00A2C6A7 /* FHAuthRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA3D1FE98A3C00A2C6A7 /* FHAuthRequest.h */; };
+		8A2DCA461FE98A5E00A2C6A7 /* FHCloudProps.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA441FE98A5E00A2C6A7 /* FHCloudProps.h */; };
+		8A2DCA471FE98A5E00A2C6A7 /* FHCloudProps.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA451FE98A5E00A2C6A7 /* FHCloudProps.m */; };
+		8A2DCA491FE98A8600A2C6A7 /* FHResponseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA481FE98A8500A2C6A7 /* FHResponseDelegate.h */; };
+		8A2DCA531FE98B9000A2C6A7 /* FHDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA511FE98B9000A2C6A7 /* FHDataManager.m */; };
+		8A2DCA541FE98B9000A2C6A7 /* FHDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA521FE98B9000A2C6A7 /* FHDataManager.h */; };
+		8A2DCA561FE98BA700A2C6A7 /* FHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA551FE98BA700A2C6A7 /* FHDefines.h */; };
+		8A2DCA591FE98BEE00A2C6A7 /* FHHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA571FE98BEE00A2C6A7 /* FHHttpClient.m */; };
+		8A2DCA5A1FE98BEE00A2C6A7 /* FHHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA581FE98BEE00A2C6A7 /* FHHttpClient.h */; };
+		8A2DCA5D1FE98C2300A2C6A7 /* FHOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA5B1FE98C2300A2C6A7 /* FHOAuthViewController.m */; };
+		8A2DCA5E1FE98C2300A2C6A7 /* FHOAuthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA5C1FE98C2300A2C6A7 /* FHOAuthViewController.h */; };
+		8A2DCA611FE98C4D00A2C6A7 /* FHInitRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2DCA5F1FE98C4D00A2C6A7 /* FHInitRequest.h */; };
+		8A2DCA621FE98C4D00A2C6A7 /* FHInitRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DCA601FE98C4D00A2C6A7 /* FHInitRequest.m */; };
 		B3AE9D7415D52CEB004EF454 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D7C55015D2923C0019262E /* CFNetwork.framework */; };
 		B3AE9D8A15D52DEE004EF454 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3951AC315D2BA020091054A /* CoreFoundation.framework */; };
 		B3AE9D8B15D52DFF004EF454 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3951AC315D2BA020091054A /* CoreFoundation.framework */; };
@@ -102,6 +126,30 @@
 		6F9C60071A9B366200C22C92 /* FHSyncUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHSyncUtils.h; sourceTree = "<group>"; };
 		6F9C60081A9B366200C22C92 /* FHSyncUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHSyncUtils.m; sourceTree = "<group>"; };
 		6FC784D61A9B9D95002485B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A2DCA2B1FE9898700A2C6A7 /* FHConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHConfig.m; sourceTree = "<group>"; };
+		8A2DCA2C1FE9898700A2C6A7 /* FHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHConfig.h; sourceTree = "<group>"; };
+		8A2DCA2F1FE989A600A2C6A7 /* FH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FH.h; sourceTree = "<group>"; };
+		8A2DCA301FE989A600A2C6A7 /* FH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FH.m; sourceTree = "<group>"; };
+		8A2DCA341FE98A2000A2C6A7 /* FHAct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHAct.h; sourceTree = "<group>"; };
+		8A2DCA351FE98A2000A2C6A7 /* FHAct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHAct.m; sourceTree = "<group>"; };
+		8A2DCA381FE98A3C00A2C6A7 /* FHActRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHActRequest.h; sourceTree = "<group>"; };
+		8A2DCA391FE98A3C00A2C6A7 /* FHCloudRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCloudRequest.m; sourceTree = "<group>"; };
+		8A2DCA3A1FE98A3C00A2C6A7 /* FHActRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHActRequest.m; sourceTree = "<group>"; };
+		8A2DCA3B1FE98A3C00A2C6A7 /* FHAuthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHAuthRequest.m; sourceTree = "<group>"; };
+		8A2DCA3C1FE98A3C00A2C6A7 /* FHCloudRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCloudRequest.h; sourceTree = "<group>"; };
+		8A2DCA3D1FE98A3C00A2C6A7 /* FHAuthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHAuthRequest.h; sourceTree = "<group>"; };
+		8A2DCA441FE98A5E00A2C6A7 /* FHCloudProps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCloudProps.h; sourceTree = "<group>"; };
+		8A2DCA451FE98A5E00A2C6A7 /* FHCloudProps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCloudProps.m; sourceTree = "<group>"; };
+		8A2DCA481FE98A8500A2C6A7 /* FHResponseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHResponseDelegate.h; sourceTree = "<group>"; };
+		8A2DCA511FE98B9000A2C6A7 /* FHDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHDataManager.m; sourceTree = "<group>"; };
+		8A2DCA521FE98B9000A2C6A7 /* FHDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHDataManager.h; sourceTree = "<group>"; };
+		8A2DCA551FE98BA700A2C6A7 /* FHDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHDefines.h; sourceTree = "<group>"; };
+		8A2DCA571FE98BEE00A2C6A7 /* FHHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHHttpClient.m; sourceTree = "<group>"; };
+		8A2DCA581FE98BEE00A2C6A7 /* FHHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHHttpClient.h; sourceTree = "<group>"; };
+		8A2DCA5B1FE98C2300A2C6A7 /* FHOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHOAuthViewController.m; sourceTree = "<group>"; };
+		8A2DCA5C1FE98C2300A2C6A7 /* FHOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHOAuthViewController.h; sourceTree = "<group>"; };
+		8A2DCA5F1FE98C4D00A2C6A7 /* FHInitRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHInitRequest.h; sourceTree = "<group>"; };
+		8A2DCA601FE98C4D00A2C6A7 /* FHInitRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHInitRequest.m; sourceTree = "<group>"; };
 		97ADCB5B6B89391C185A6896 /* libPods-FH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		992F278D07A0A39EC9C17A33 /* Pods-FH-FHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FH-FHTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FH-FHTests/Pods-FH-FHTests.release.xcconfig"; sourceTree = "<group>"; };
 		B3951AAB15D2B96A0091054A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
@@ -161,6 +209,8 @@
 		01FB41BD1FE2964B00AB7FEA /* core */ = {
 			isa = PBXGroup;
 			children = (
+				8A2DCA2F1FE989A600A2C6A7 /* FH.h */,
+				8A2DCA301FE989A600A2C6A7 /* FH.m */,
 				6F9C5FFE1A9B366200C22C92 /* FHSyncDataRecord.h */,
 				6F9C5FFF1A9B366200C22C92 /* FHSyncDataRecord.m */,
 				6F9C60001A9B366200C22C92 /* FHSyncDataset.h */,
@@ -240,6 +290,48 @@
 			name = Mock;
 			sourceTree = "<group>";
 		};
+		8A2DCA2A1FE9895000A2C6A7 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				8A2DCA2C1FE9898700A2C6A7 /* FHConfig.h */,
+				8A2DCA2B1FE9898700A2C6A7 /* FHConfig.m */,
+				8A2DCA441FE98A5E00A2C6A7 /* FHCloudProps.h */,
+				8A2DCA451FE98A5E00A2C6A7 /* FHCloudProps.m */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		8A2DCA331FE98A0C00A2C6A7 /* cloud */ = {
+			isa = PBXGroup;
+			children = (
+				8A2DCA341FE98A2000A2C6A7 /* FHAct.h */,
+				8A2DCA351FE98A2000A2C6A7 /* FHAct.m */,
+				8A2DCA381FE98A3C00A2C6A7 /* FHActRequest.h */,
+				8A2DCA3A1FE98A3C00A2C6A7 /* FHActRequest.m */,
+				8A2DCA3D1FE98A3C00A2C6A7 /* FHAuthRequest.h */,
+				8A2DCA3B1FE98A3C00A2C6A7 /* FHAuthRequest.m */,
+				8A2DCA3C1FE98A3C00A2C6A7 /* FHCloudRequest.h */,
+				8A2DCA391FE98A3C00A2C6A7 /* FHCloudRequest.m */,
+				8A2DCA5F1FE98C4D00A2C6A7 /* FHInitRequest.h */,
+				8A2DCA601FE98C4D00A2C6A7 /* FHInitRequest.m */,
+				8A2DCA581FE98BEE00A2C6A7 /* FHHttpClient.h */,
+				8A2DCA571FE98BEE00A2C6A7 /* FHHttpClient.m */,
+				8A2DCA5C1FE98C2300A2C6A7 /* FHOAuthViewController.h */,
+				8A2DCA5B1FE98C2300A2C6A7 /* FHOAuthViewController.m */,
+				8A2DCA481FE98A8500A2C6A7 /* FHResponseDelegate.h */,
+			);
+			name = cloud;
+			sourceTree = "<group>";
+		};
+		8A2DCA501FE98B7600A2C6A7 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8A2DCA521FE98B9000A2C6A7 /* FHDataManager.h */,
+				8A2DCA511FE98B9000A2C6A7 /* FHDataManager.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		B3951AAD15D2B96A0091054A /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,10 +387,14 @@
 		B3D7C48815D28BE30019262E /* sync-ios */ = {
 			isa = PBXGroup;
 			children = (
-				01FB41C01FE297CF00AB7FEA /* network */,
+				8A2DCA551FE98BA700A2C6A7 /* FHDefines.h */,
 				01FB41BF1FE2965B00AB7FEA /* api */,
-				01FB41BE1FE2965500AB7FEA /* utils */,
 				01FB41BD1FE2964B00AB7FEA /* core */,
+				8A2DCA2A1FE9895000A2C6A7 /* config */,
+				8A2DCA331FE98A0C00A2C6A7 /* cloud */,
+				8A2DCA501FE98B7600A2C6A7 /* data */,
+				01FB41C01FE297CF00AB7FEA /* network */,
+				01FB41BE1FE2965500AB7FEA /* utils */,
 				B3D7C48915D28BE30019262E /* Supporting Files */,
 				01FB41B61FE293F100AB7FEA /* Definitions.h */,
 			);
@@ -340,16 +436,29 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2DCA311FE989A600A2C6A7 /* FH.h in Headers */,
+				8A2DCA461FE98A5E00A2C6A7 /* FHCloudProps.h in Headers */,
+				8A2DCA491FE98A8600A2C6A7 /* FHResponseDelegate.h in Headers */,
 				6FCF31F21A9B41740014B936 /* FHSyncClient.h in Headers */,
+				8A2DCA361FE98A2000A2C6A7 /* FHAct.h in Headers */,
+				8A2DCA561FE98BA700A2C6A7 /* FHDefines.h in Headers */,
 				01FB41B81FE2951400AB7FEA /* FHResponse.h in Headers */,
 				6FCF31F31A9B41760014B936 /* FHSyncConfig.h in Headers */,
+				8A2DCA3E1FE98A3C00A2C6A7 /* FHActRequest.h in Headers */,
 				6FCF31F81A9B430F0014B936 /* FHSyncNotificationMessage.h in Headers */,
 				6F84682F1AB03C0100EC7593 /* FHJSON.h in Headers */,
 				6FE7B36B1ACEDF1A0029C63F /* FHSyncUtils.h in Headers */,
+				8A2DCA611FE98C4D00A2C6A7 /* FHInitRequest.h in Headers */,
+				8A2DCA2E1FE9898700A2C6A7 /* FHConfig.h in Headers */,
 				6FE7B3681ACEDED10029C63F /* FHSyncDataRecord.h in Headers */,
 				6FE7B3691ACEDED10029C63F /* FHSyncDataset.h in Headers */,
+				8A2DCA421FE98A3C00A2C6A7 /* FHCloudRequest.h in Headers */,
 				01FB41C31FE2980C00AB7FEA /* NetworkHandler.h in Headers */,
+				8A2DCA541FE98B9000A2C6A7 /* FHDataManager.h in Headers */,
+				8A2DCA431FE98A3C00A2C6A7 /* FHAuthRequest.h in Headers */,
+				8A2DCA5A1FE98BEE00A2C6A7 /* FHHttpClient.h in Headers */,
 				6FE7B36A1ACEDEF60029C63F /* FHSyncPendingDataRecord.h in Headers */,
+				8A2DCA5E1FE98C2300A2C6A7 /* FHOAuthViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,16 +648,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2DCA5D1FE98C2300A2C6A7 /* FHOAuthViewController.m in Sources */,
+				8A2DCA401FE98A3C00A2C6A7 /* FHActRequest.m in Sources */,
 				6F9C60841A9B36B100C22C92 /* FHSyncClient.m in Sources */,
+				8A2DCA321FE989A600A2C6A7 /* FH.m in Sources */,
+				8A2DCA471FE98A5E00A2C6A7 /* FHCloudProps.m in Sources */,
+				8A2DCA411FE98A3C00A2C6A7 /* FHAuthRequest.m in Sources */,
 				6F9C60861A9B36B100C22C92 /* FHSyncConfig.m in Sources */,
 				6F9C60881A9B36B100C22C92 /* FHSyncDataRecord.m in Sources */,
 				6F9C608A1A9B36B100C22C92 /* FHSyncDataset.m in Sources */,
+				8A2DCA3F1FE98A3C00A2C6A7 /* FHCloudRequest.m in Sources */,
 				6F9C608D1A9B36B100C22C92 /* FHSyncNotificationMessage.m in Sources */,
+				8A2DCA591FE98BEE00A2C6A7 /* FHHttpClient.m in Sources */,
+				8A2DCA2D1FE9898700A2C6A7 /* FHConfig.m in Sources */,
 				6F9C608F1A9B36B100C22C92 /* FHSyncPendingDataRecord.m in Sources */,
 				01FB41BC1FE2954500AB7FEA /* FHResponse.m in Sources */,
 				6F8468301AB03C0100EC7593 /* FHJSON.m in Sources */,
+				8A2DCA371FE98A2000A2C6A7 /* FHAct.m in Sources */,
+				8A2DCA531FE98B9000A2C6A7 /* FHDataManager.m in Sources */,
 				6F9C60911A9B36B100C22C92 /* FHSyncUtils.m in Sources */,
 				01FB41C41FE2980C00AB7FEA /* NetworkHandler.m in Sources */,
+				8A2DCA621FE98C4D00A2C6A7 /* FHInitRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,7 @@
  */
 
 #import <XCTest/XCTest.h>
+#import "FH.h"
 #import "FHSyncClient.h"
 #import "FHSyncConfig.h"
 #import "FHSyncDataset.h"
