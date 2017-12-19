@@ -14,7 +14,7 @@
         @param failornil Block to be executed if the execution of the cloud side
         function is failed
     */
-    + (void)performActRequest:(NSString *)funcName
+    - (void)performActRequest:(NSString *)funcName
                      WithArgs:(NSDictionary *)arguments
                    AndSuccess:(void (^)(FHResponse *success))sucornil
                    AndFailure:(void (^)(FHResponse *failed))failornil;

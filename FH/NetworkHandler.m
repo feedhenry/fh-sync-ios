@@ -6,7 +6,7 @@
 #import "FHResponse.h"
 
 @implementation NetworkHandler
-    + (void)performActRequest:(NSString *)funcName
+    - (void)performActRequest:(NSString *)funcName
                      WithArgs:(NSDictionary *)arguments
                    AndSuccess:(void (^)(FHResponse *success))sucornil
                    AndFailure:(void (^)(FHResponse *failed))failornil {
