@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+#import "FHDefines.h"
+#import "FH.h"
 #import "FHResponse.h"
 #import "FHSyncDataset.h"
 #import "FHSyncUtils.h"
