@@ -16,6 +16,8 @@
 
 #import "FHJSON.h"
 
+#import <Foundation/Foundation.h>
+
 @implementation NSString (JSON)
 
 - (id)objectFromJSONString {

@@ -14,11 +14,14 @@
  * limitations under the License.
  */
 
-#import "FH.h"
 #import "FHSyncConfig.h"
 #import "FHSyncNotificationMessage.h"
 #import "FHSyncDelegate.h"
 #import "FHSyncDataset.h"
+#import "Definitions.h"
+#import "FHResponse.h"
+#import "NetworkHandler.h"
+
 /**
  The sync client is part of the FeedHenry data sync framework. It provides a mechanism to manage
  bi-direction data synchronization.
@@ -30,7 +33,6 @@
 + (FHSyncClient *)getInstance;
 
 /** Initializer for unit testing only.
-
  @param config The sync configuration
  */
 - (instancetype)initWithConfig:(FHSyncConfig *)config AndDataSet:(FHSyncDataset*)dataSetInjected;
@@ -40,6 +42,13 @@
  @param config The sync configuration
  */
 - (instancetype)initWithConfig:(FHSyncConfig *)config;
+
+/**
+ * Set network handler to be used with sync
+ */
+- (void)setNetworkHandler:(NetworkHandler *) handler;
+
+
 /**
  Use sync client to manage a dataset with id dataId.
 

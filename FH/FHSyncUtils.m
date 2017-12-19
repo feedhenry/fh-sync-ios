@@ -15,10 +15,9 @@
  */
 
 #import <CommonCrypto/CommonDigest.h>
-
 #import "FHSyncUtils.h"
 #import "FHSyncClient.h"
-#import "FHDefines.h"
+#import <Foundation/Foundation.h>
 
 @implementation FHSyncUtils
 

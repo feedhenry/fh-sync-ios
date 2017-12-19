@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
+#import "FHDefines.h"
+#import "FH.h"
+#import "FHResponse.h"
 #import "FHSyncDataset.h"
 #import "FHSyncUtils.h"
 #import "FHJSON.h"
 #import "FHSyncPendingDataRecord.h"
 #import "FHSyncDataRecord.h"
-#import "FH.h"
-#import "FHDefines.h"
 #import "FHSyncNotificationMessage.h"
-#import "FHResponse.h"
 
 static NSString *const kStorageFilePath = @"sync.json";
 

@@ -21,13 +21,14 @@
 #import "FHSyncPendingDataRecord.h"
 #import "FHSyncDataRecord.h"
 #import "FHSyncDataset.h"
-#import "FHDefines.h"
 
 @implementation FHSyncClient {
     NSMutableDictionary *_dataSets;
     FHSyncConfig *_syncConfig;
     BOOL _initialized;
     FHSyncDataset* _dataSetInjected;
+    /** Network handler to be injected */
+    NetworkHandler* networkHandler;
 }
 
 /*
@@ -44,6 +45,10 @@
     }
 
     return self;
+}
+
+- (void)setNetworkHandler:(NetworkHandler *) handler{
+    networkHandler = handler;
 }
 
 - (instancetype)initWithConfig:(FHSyncConfig *)config {
@@ -248,7 +253,7 @@
 - (void)listCollisionWithCallbacksForDataId:(NSString *)dataId
                                  AndSuccess:(void (^)(FHResponse *success))sucornil
                                  AndFailure:(void (^)(FHResponse *failed))failornil {
-    [FH performActRequest:dataId
+    [networkHandler performActRequest:dataId
                  WithArgs:@{
                      @"fn" : @"listCollisions"
                  }
@@ -260,7 +265,7 @@
                                          hash:(NSString *)collisionHash
                                    AndSuccess:(void (^)(FHResponse *success))sucornil
                                    AndFailure:(void (^)(FHResponse *failed))failornil {
-    [FH performActRequest:dataId
+    [networkHandler performActRequest:dataId
                  WithArgs:@{
                      @"fn" : @"removeCollisions",
                      @"hash" : collisionHash

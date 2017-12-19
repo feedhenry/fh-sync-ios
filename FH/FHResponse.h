@@ -35,14 +35,12 @@
 @property (nonatomic, strong) NSError *error;
 
 /** Parse the response string (JSON format)
-
-@param res The response string
-*/
+ @param res The response string
+ */
 - (void)parseResponseString:(NSString *)res;
 
 /** Parse the response data (JSON format)
-
-@param dat The response data
-*/
+ @param dat The response data
+ */
 - (void)parseResponseData:(NSData *)dat;
 @end
